@@ -1,0 +1,20 @@
+{
+  "name": "typescript_tutorial",
+  "version": "1.0.0",
+  "description": "- 자바스크립트의 상위 집합\r - 정적인 언어, 컴파일 시간에 타입을 검사 vs 동적인 언어인 Javascript\r - 장점\r   - 강력한 타입으로 대규모 어플리케이션 개발에 용이\r   - JS 라이브러리 사용 가능\r   - 개발 도구에서의 강력한 지원",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejoonkim/typescript_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sejoonkim/typescript_tutorial/issues"
+  },
+  "homepage": "https://github.com/sejoonkim/typescript_tutorial#readme"
+}
