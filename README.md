@@ -73,3 +73,33 @@
   - 각 import 항목의 파일명에 `.js` 추가하기
   - `tsconfig.json`에서 `module`, `target` = es6
   - `index.html`의 script tag에서 `type="module"` 추가하기
+
+<br/>
+
+## 4강 변수선언
+
+- | var            | let         | const       |
+  | -------------- | ----------- | ----------- |
+  | function scope | block scope | block scope |
+
+- ```javascript
+  for (var i = 0; i < 3; i++) {
+    setTimeout(function () {
+      console.log(i); // outputs 3
+    }, 1000);
+  }
+  ```
+
+- type annotation
+
+  - Cannot find name 'score'. Did you mean 'score1'?
+
+  - Type 'string' is not assignable to type 'number'.
+
+  - ```typescript
+    let scoreOld; // 'any' type
+    let score: number; // used type annotation
+    const score1 = 30; // no need for type annotation
+    score = 30;
+    score = "30";
+    ```
